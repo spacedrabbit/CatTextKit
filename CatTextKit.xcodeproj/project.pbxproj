@@ -11,6 +11,7 @@
 		1452EC641D1C757300A3CD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452EC631D1C757300A3CD7E /* ViewController.swift */; };
 		1452EC691D1C757300A3CD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1452EC681D1C757300A3CD7E /* Assets.xcassets */; };
 		1452EC6C1D1C757300A3CD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1452EC6A1D1C757300A3CD7E /* LaunchScreen.storyboard */; };
+		1452EC751D1DC6F800A3CD7E /* TextRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452EC741D1DC6F800A3CD7E /* TextRenderingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1452EC681D1C757300A3CD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1452EC6B1D1C757300A3CD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1452EC6D1D1C757300A3CD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1452EC741D1DC6F800A3CD7E /* TextRenderingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRenderingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				1452EC611D1C757300A3CD7E /* AppDelegate.swift */,
 				1452EC631D1C757300A3CD7E /* ViewController.swift */,
 				1452EC731D1C758400A3CD7E /* Supporting Files */,
+				1452EC741D1DC6F800A3CD7E /* TextRenderingView.swift */,
 			);
 			path = CatTextKit;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1452EC641D1C757300A3CD7E /* ViewController.swift in Sources */,
+				1452EC751D1DC6F800A3CD7E /* TextRenderingView.swift in Sources */,
 				1452EC621D1C757300A3CD7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,7 @@
 				1452EC721D1C757300A3CD7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

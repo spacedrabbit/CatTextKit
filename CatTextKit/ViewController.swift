@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColor.whiteColor()
+    self.view.addSubview(textRenderingView)
   }
 
   override func didReceiveMemoryWarning() {
@@ -20,6 +21,11 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-
+  lazy internal var textRenderingView: TextRenderingView = {
+    let view = TextRenderingView(frame: CGRectMake(0.0, 100.0, self.view.frame.size.width, 300.0))
+//    view.backgroundColor = UIColor.whiteColor()
+    return view
+  }()
+  
 }
 
