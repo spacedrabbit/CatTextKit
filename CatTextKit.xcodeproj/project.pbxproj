@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140D79841D231EFD00002EE4 /* TextPlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D79831D231EFD00002EE4 /* TextPlaygroundViewController.swift */; };
 		1452EC621D1C757300A3CD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452EC611D1C757300A3CD7E /* AppDelegate.swift */; };
 		1452EC641D1C757300A3CD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452EC631D1C757300A3CD7E /* ViewController.swift */; };
 		1452EC691D1C757300A3CD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1452EC681D1C757300A3CD7E /* Assets.xcassets */; };
 		1452EC6C1D1C757300A3CD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1452EC6A1D1C757300A3CD7E /* LaunchScreen.storyboard */; };
 		1452EC751D1DC6F800A3CD7E /* TextRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452EC741D1DC6F800A3CD7E /* TextRenderingView.swift */; };
+		A58F75429DA4C62A17DDDAB3 /* Pods_CatTextKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8520D0DAD6C99F91F6E7F9DE /* Pods_CatTextKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		108EC3067E31EA6DB59FBBFA /* Pods-CatTextKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatTextKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatTextKit/Pods-CatTextKit.release.xcconfig"; sourceTree = "<group>"; };
+		140D79831D231EFD00002EE4 /* TextPlaygroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextPlaygroundViewController.swift; sourceTree = "<group>"; };
 		1452EC5E1D1C757300A3CD7E /* CatTextKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatTextKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1452EC611D1C757300A3CD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1452EC631D1C757300A3CD7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		1452EC6B1D1C757300A3CD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1452EC6D1D1C757300A3CD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1452EC741D1DC6F800A3CD7E /* TextRenderingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRenderingView.swift; sourceTree = "<group>"; };
+		8520D0DAD6C99F91F6E7F9DE /* Pods_CatTextKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatTextKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBEABD220041BD2DDEC1D24 /* Pods-CatTextKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatTextKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatTextKit/Pods-CatTextKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58F75429DA4C62A17DDDAB3 /* Pods_CatTextKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				1452EC601D1C757300A3CD7E /* CatTextKit */,
 				1452EC5F1D1C757300A3CD7E /* Products */,
+				9DC4803150C91BA5569D9C9A /* Pods */,
+				EE198208E0B63473F20CF81D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +65,9 @@
 			children = (
 				1452EC611D1C757300A3CD7E /* AppDelegate.swift */,
 				1452EC631D1C757300A3CD7E /* ViewController.swift */,
-				1452EC731D1C758400A3CD7E /* Supporting Files */,
 				1452EC741D1DC6F800A3CD7E /* TextRenderingView.swift */,
+				1452EC731D1C758400A3CD7E /* Supporting Files */,
+				140D79831D231EFD00002EE4 /* TextPlaygroundViewController.swift */,
 			);
 			path = CatTextKit;
 			sourceTree = "<group>";
@@ -72,6 +82,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9DC4803150C91BA5569D9C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEABD220041BD2DDEC1D24 /* Pods-CatTextKit.debug.xcconfig */,
+				108EC3067E31EA6DB59FBBFA /* Pods-CatTextKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE198208E0B63473F20CF81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8520D0DAD6C99F91F6E7F9DE /* Pods_CatTextKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1452EC701D1C757300A3CD7E /* Build configuration list for PBXNativeTarget "CatTextKit" */;
 			buildPhases = (
+				378202B3EF8C294356BA7EB0 /* [CP] Check Pods Manifest.lock */,
 				1452EC5A1D1C757300A3CD7E /* Sources */,
 				1452EC5B1D1C757300A3CD7E /* Frameworks */,
 				1452EC5C1D1C757300A3CD7E /* Resources */,
+				79F97FFC73AFB592178AE6B2 /* [CP] Embed Pods Frameworks */,
+				EE6ED37F0E211DB9D3EE3118 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		378202B3EF8C294356BA7EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79F97FFC73AFB592178AE6B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatTextKit/Pods-CatTextKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6ED37F0E211DB9D3EE3118 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatTextKit/Pods-CatTextKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1452EC5A1D1C757300A3CD7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -144,6 +222,7 @@
 			files = (
 				1452EC641D1C757300A3CD7E /* ViewController.swift in Sources */,
 				1452EC751D1DC6F800A3CD7E /* TextRenderingView.swift in Sources */,
+				140D79841D231EFD00002EE4 /* TextPlaygroundViewController.swift in Sources */,
 				1452EC621D1C757300A3CD7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +326,7 @@
 		};
 		1452EC711D1C757300A3CD7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBEABD220041BD2DDEC1D24 /* Pods-CatTextKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatTextKit/Info.plist;
@@ -258,6 +338,7 @@
 		};
 		1452EC721D1C757300A3CD7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108EC3067E31EA6DB59FBBFA /* Pods-CatTextKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatTextKit/Info.plist;
